@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+}
+
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display : flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+#canvas {
+  border: 2px solid gold;
+  margin: 20px 10px 10px 50px;
+  background-color: whitesmoke;
+
+}
+label {
+  margin-bottom: 5px;
+}
+
+#color-picker {
+  margin-bottom: 10px;
+  margin-right: 20px;
+}
+
+#lineWidth{
+  margin-top: 20px;
+
+}
+#clearCanvasButton {
+  margin-top: 20px;
+  padding: 5px;
+  border-radius: 4px;
+  border-color: paleturquoise;
+}
+
